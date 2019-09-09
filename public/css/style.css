@@ -2,15 +2,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-#app {
-  /* width: 60%; */
-  /* margin: 0 auto; */
-}
 
 ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 li {
@@ -18,18 +13,7 @@ li {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-}
-
-li span {
-  padding: 8px;
-}
-
-li button {
-  background: #f2360c;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+  width: 40%;
 }
 
 li.low {
@@ -43,7 +27,7 @@ li.high {
 
 input[type="text"] {
   padding: 10px;
-  /* width: 50%; */
+  width: 25%;
 }
 
 button{
