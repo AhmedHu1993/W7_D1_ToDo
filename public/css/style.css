@@ -1,5 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
+  margin: auto;
+  padding-left: 10px;
 }
 
 
@@ -12,7 +14,7 @@ li {
   margin: 20px 0;
   padding: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 40%;
 }
 
