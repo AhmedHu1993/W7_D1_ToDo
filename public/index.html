@@ -15,9 +15,9 @@
         <div id="input">
             <input type="text" v-model="newItem">
             <label for="high">High</label>
-            <input type="radio" id="high" value="false" v-model="lowPriority">
+            <input type="radio" id="high" v-bind:value="false" v-model="lowPriority">
             <label for="low">Low</label>
-            <input type="radio" id="low" value="true" v-model="lowPriority">
+            <input type="radio" id="low" v-bind:value="true" v-model="lowPriority">
             <button v-on:click="saveNewItem">Save Item</button>
         </div>
         <ul>

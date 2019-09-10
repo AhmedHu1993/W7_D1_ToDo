@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
         el: "#app",
         data: {
             todos: [
-                {name: "Do Shopping", lowPriority: false}, 
-                {name: "Call Family", lowPriority: true}, 
-                {name: "Cook Dinner", lowPriority: false}],
-            lowPriority: false,
-            newItem: "",
+                {name: "Do Shopping", lowPriority: true}, 
+                {name: "Call Family", lowPriority: false}, 
+                {name: "Cook Dinner", lowPriority: true}],
+            lowPriority: "",
+            newItem: ""
             
         },
         methods: {
@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     lowPriority: this.lowPriority
                 });
                 this.newItem="";
+                this.lowPriority="";
             }
 
         }
