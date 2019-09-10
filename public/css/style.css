@@ -25,6 +25,7 @@ li.low {
 
 li.high {
   border: 2px solid #f2360c;
+  color: #f2360c;
 }
 
 input[type="text"] {
